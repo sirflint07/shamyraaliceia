@@ -42,7 +42,7 @@ export default function AboutBrand() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full shadow-md hover:bg-gray-900 transition w-[30%] hover:animate-pulse"
+            className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full shadow-md hover:bg-gray-900 transition lg:w-[30%] w-[60%] hover:animate-pulse"
           >
             Contact Me <ArrowRight size={16} />
           </motion.button>

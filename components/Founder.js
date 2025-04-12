@@ -18,7 +18,7 @@ function Founder() {
         </div>
         <br />
         <div className='flex flex-col items-center mx-auto gap-4'>
-            <motion.div className='relative h-[150px] md:h-[200px] lg:h-[300px] xl:h-[400px] w-[150px] md:w-[200px] lg:w-[300px] xl:w-[400px] overflow-hidden rounded-full border-8 border-gold-2 shadow'
+            <motion.div className='relative h-[250px] md:h-[200px] lg:h-[300px] xl:h-[400px] w-[250px] md:w-[200px] lg:w-[300px] xl:w-[400px] overflow-hidden rounded-full border-8 border-gold-2 shadow'
             
             initial={{x: -100, opacity: 0}}
             animate={{x: 0, opacity: 1}}
@@ -31,7 +31,7 @@ function Founder() {
                 />
             </motion.div>
 
-            <div className='max-w-[50vw] text-base text-gray-700 text-center tracking-wide leading-8'>
+            <div className='max-w-[80vw] md:max-w-[50vw] text-sm md:text-base text-gray-700 text-center tracking-wide leading-8'>
             <p>
                 Shamyra Alice is a passionate floral designer with a love for creating stunning arrangements that tell a story. With years of experience in the industry, she has honed her skills to bring out the beauty in every bloom.
                 Her unique approach combines artistry with a deep understanding of nature, resulting in breathtaking floral installations that leave a lasting impression.

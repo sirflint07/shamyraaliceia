@@ -32,7 +32,7 @@ const reviews = [
     role: "Creative Director",
     content: "Absolutely love the design and flexibility. It's been a game changer for our creative workflows.",
     rating: 5,
-    image: "/img/",
+    image: "/img/client1.png",
   },
   {
     name: "Olivia Brown",
@@ -96,12 +96,13 @@ export default function ReviewSlider() {
 
         <Slider {...settings}>
           {reviews.map((review, index) => (
-            <div key={index}>
+            <div key={index} className='max-md:w-[90vw]'>
               <ReviewCard {...review} />
             </div>
           ))}
         </Slider>
       </div>
+      <br />
     </section>
   );
 }
