@@ -96,7 +96,7 @@ export default function ReviewSlider() {
 
         <Slider {...settings}>
           {reviews.map((review, index) => (
-            <div key={index} className='max-md:w-[90vw]'>
+            <div key={index} className='max-md:w-[60vw] md:w-[90vw]'>
               <ReviewCard {...review} />
             </div>
           ))}

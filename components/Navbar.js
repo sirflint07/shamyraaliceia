@@ -8,7 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-sm shadow-md p-3">
+    <header className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-sm shadow-md py-3">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between">
         <h1 className="text-white text-2xl lg:text-3xl font-bold">Shamyra Aliceia</h1>
 
@@ -39,7 +39,7 @@ export default function Navbar() {
       {/* Mobile Nav with Animation */}
       <div
         className={clsx(
-          "overflow-hidden md:hidden transition-all duration-300 ease-in-out bg-black/90 backdrop-blur-sm text-white text-sm",
+          "overflow-hidden md:hidden transition-all duration-300 w-full ease-in-out bg-black/90 backdrop-blur-sm text-white text-sm",
           menuOpen ? "max-h-96 opacity-100 py-4 px-6" : "max-h-0 opacity-0 px-6"
         )}
       >
