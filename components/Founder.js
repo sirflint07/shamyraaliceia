@@ -33,8 +33,11 @@ function Founder() {
 
             <div className='max-w-[80vw] md:max-w-[50vw] text-sm md:text-base text-gray-700 text-center tracking-wide leading-8'>
             <p>
-                Shamyra Alice is a passionate floral designer with a love for creating stunning arrangements that tell a story. With years of experience in the industry, she has honed her skills to bring out the beauty in every bloom.
-                Her unique approach combines artistry with a deep understanding of nature, resulting in breathtaking floral installations that leave a lasting impression.
+                Shamyra Alice is a versatile professional with over five years of experience in People Operations, Event Management, and Employee Engagement. I thrive on creating positive workplace cultures, streamlining processes, and making big ideas happen!
+
+From onboarding programs to engagement initiatives, I bring creativity and precision to every step of the employee experience. I also excel in executive support, calendar management, travel coordination, and keeping everything running smoothly.
+
+Let’s connect if you’re passionate about empowering people, optimizing processes, and making workspaces better for everyone!
             </p>
         </div>
         </div>

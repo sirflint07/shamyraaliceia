@@ -28,7 +28,7 @@ export default function Navbar() {
           <li><a href="#reviews" className="hover:text-gold-1 transition">Reviews</a></li>
           <li><a href="#services" className="hover:text-gold-1 transition">Services</a></li>
           <li>
-            <a href="mailto:info@example.com" className="flex items-center gap-1 hover:text-gold-1 transition">
+            <a href="mailto:shamyrara@accessibe.com" className="flex items-center gap-1 hover:text-gold-1 transition">
               <Mail className="h-4 w-4" />
               Mail
             </a>
