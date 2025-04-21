@@ -13,7 +13,7 @@ const images = [
   '/img/slide-5.jpg',
 ];
 
-export default function Carousl() {
+export default function Carousel() {
   const settings = {
     dots: true,
     infinite: true,

@@ -72,7 +72,7 @@ const Footer = () => {
                 label: 'Instagram',
                 hover: 'hover:text-pink-500'
               },{
-                href: '#',
+                href: 'https://www.linkedin.com/in/shamyra-rattray/',
                 icon: FaLinkedin,
                 label: 'LinkedIn',
                 hover: 'hover:text-blue-400'

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { FaLocationDot } from "react-icons/fa6";
 import { CiBookmarkPlus } from "react-icons/ci";
-import Carousl from "./Carousel";
+import Carousel from "./Carousel";
 
 export default function AboutBrand() {
   return (
@@ -49,7 +49,7 @@ export default function AboutBrand() {
         </div>
 
         <div className="w-full h-full">
-          <Carousl />
+          <Carousel />
         </div>
       </div>
     </section>
